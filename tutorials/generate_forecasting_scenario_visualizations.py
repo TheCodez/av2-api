@@ -4,7 +4,7 @@
 from enum import Enum, unique
 from pathlib import Path
 from random import choices
-from typing import Final
+from typing_extensions import Final
 
 import click
 from joblib import Parallel, delayed

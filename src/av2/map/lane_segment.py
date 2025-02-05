@@ -7,7 +7,7 @@ from __future__ import annotations
 import logging
 from dataclasses import dataclass
 from enum import Enum, unique
-from typing import Any, Dict, Final, List, Optional
+from typing_extensions import Any, Dict, Final, List, Optional
 
 import av2.geometry.infinity_norm_utils as infinity_norm_utils
 import av2.geometry.interpolate as interp_utils

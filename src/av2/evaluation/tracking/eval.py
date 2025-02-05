@@ -14,7 +14,7 @@ from functools import partial
 from itertools import chain
 from pathlib import Path
 from pprint import pprint
-from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple, Union, cast
+from typing_extensions import Any, Callable, Dict, Iterable, List, Optional, Tuple, Union, cast
 
 import click
 import numpy as np

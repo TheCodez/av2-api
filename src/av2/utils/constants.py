@@ -6,7 +6,7 @@ import math
 import multiprocessing as mp
 import sys
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 
 # Difference between 1.0 and the least value greater than 1.0 that is representable as a float.
 # https://docs.python.org/3/library/sys.html#sys.float_info

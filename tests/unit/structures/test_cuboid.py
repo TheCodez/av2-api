@@ -3,7 +3,7 @@
 """Units tests for cuboids."""
 
 from enum import Enum
-from typing import Any, Callable, List, Tuple
+from typing_extensions import Any, Callable, List, Tuple
 
 import numpy as np
 import pytest

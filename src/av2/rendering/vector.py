@@ -3,7 +3,7 @@
 """Utilities for vector graphics rendering."""
 
 from enum import Enum
-from typing import Optional, Tuple, Union
+from typing_extensions import Optional, Tuple, Union
 
 import cv2
 import matplotlib.patches as mpatches

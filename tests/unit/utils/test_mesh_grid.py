@@ -2,7 +2,7 @@
 
 """Unit tests for mesh grid related utilities."""
 
-from typing import List
+from typing_extensions import List
 
 import numpy as np
 

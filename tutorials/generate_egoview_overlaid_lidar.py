@@ -6,7 +6,7 @@ import logging
 import os
 import sys
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 
 import click
 import cv2

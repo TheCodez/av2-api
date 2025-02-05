@@ -5,7 +5,7 @@
 import logging
 import sys
 from pathlib import Path
-from typing import Final, Sequence, Tuple, Union
+from typing_extensions import Final, Sequence, Tuple, Union
 
 import click
 import matplotlib.pyplot as plt

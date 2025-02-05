@@ -3,7 +3,7 @@
 """Dataset evaluation subpackage."""
 
 from enum import Enum, unique
-from typing import Final
+from typing_extensions import Final
 
 NUM_RECALL_SAMPLES: Final = 101
 

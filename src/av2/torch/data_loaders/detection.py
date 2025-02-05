@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass, field
-from typing import List
+from typing_extensions import List
 
 import torch
 from torch.utils.data import Dataset

@@ -4,7 +4,7 @@
 
 from dataclasses import dataclass
 from enum import Enum, unique
-from typing import List, Optional, Tuple
+from typing_extensions import List, Optional, Tuple
 
 from av2.utils.dataclass import dataclass_eq
 from av2.utils.typing import NDArrayInt

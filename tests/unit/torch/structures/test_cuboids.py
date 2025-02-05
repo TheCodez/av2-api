@@ -1,7 +1,7 @@
 """Unit tests for PyTorch Cuboids sub-module."""
 
 from pathlib import Path
-from typing import Final, List
+from typing_extensions import Final, List
 
 import numpy as np
 import pandas as pd

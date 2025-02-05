@@ -8,7 +8,7 @@ The rest apply no filtering to objects that have their corners located outside o
 
 import math
 from pathlib import Path
-from typing import Final, List
+from typing_extensions import Final, List
 
 import numpy as np
 import pandas as pd

@@ -3,7 +3,7 @@
 """Utilities to (de)serialize Argoverse forecasting scenarios."""
 
 from pathlib import Path
-from typing import List, Tuple
+from typing_extensions import List, Tuple
 
 import numpy as np
 import pandas as pd

@@ -4,7 +4,7 @@
 
 from contextlib import AbstractContextManager
 from contextlib import nullcontext as does_not_raise
-from typing import Final
+from typing_extensions import Final
 
 import numpy as np
 import pytest

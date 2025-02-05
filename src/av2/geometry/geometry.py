@@ -2,7 +2,7 @@
 
 """Geometric utilities for manipulation point clouds, rigid objects, and vector geometry."""
 
-from typing import Tuple, Union
+from typing_extensions import Tuple, Union
 
 import numpy as np
 from scipy.spatial.transform import Rotation

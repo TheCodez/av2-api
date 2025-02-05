@@ -2,7 +2,7 @@
 
 """Splits for the Argoverse 2 sensor dataset."""
 
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 TRAIN: Final[Tuple[str, ...]] = (
     "00a6ffc1-6ce9-3bc3-a060-6006e9893a1a",

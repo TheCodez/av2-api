@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Optional, Tuple
+from typing_extensions import Optional, Tuple
 
 import torch
 from kornia.geometry.liegroup import Se3

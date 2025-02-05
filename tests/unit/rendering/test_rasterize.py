@@ -1,6 +1,6 @@
 """Tests for the rasterize sub-module."""
 
-from typing import Tuple
+from typing_extensions import Tuple
 
 import numpy as np
 

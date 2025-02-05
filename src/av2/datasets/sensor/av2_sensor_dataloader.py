@@ -4,7 +4,7 @@
 
 import logging
 from pathlib import Path
-from typing import Final, List, Optional, Tuple
+from typing_extensions import Final, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd

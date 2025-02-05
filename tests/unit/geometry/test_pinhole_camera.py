@@ -3,7 +3,7 @@
 """Unit tests for PinholeCamera model."""
 
 from pathlib import Path
-from typing import Tuple
+from typing_extensions import Tuple
 
 import numpy as np
 import pytest

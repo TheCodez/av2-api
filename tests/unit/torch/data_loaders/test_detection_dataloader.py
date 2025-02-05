@@ -1,7 +1,7 @@
 """Unit tests for PyTorch Detection Dataset sub-module."""
 
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 
 from av2.torch.data_loaders.detection import DetectionDataLoader
 

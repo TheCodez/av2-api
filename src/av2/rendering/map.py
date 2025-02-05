@@ -7,7 +7,7 @@ Red represents an implicit lane marking (with no actual paint, merely inferred b
 
 import copy
 from dataclasses import dataclass
-from typing import Final, Optional, Tuple, Union
+from typing_extensions import Final, Optional, Tuple, Union
 
 import cv2
 import numpy as np

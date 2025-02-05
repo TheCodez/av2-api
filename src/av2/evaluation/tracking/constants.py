@@ -1,6 +1,6 @@
 """Constants for tracking challenge."""
 
-from typing import Final
+from typing_extensions import Final
 
 from av2.evaluation import SensorCompetitionCategories
 

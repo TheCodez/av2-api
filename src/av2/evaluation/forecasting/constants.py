@@ -1,6 +1,6 @@
 """Constants for the forecasting challenge."""
 
-from typing import Final
+from typing_extensions import Final
 
 import numpy as np
 

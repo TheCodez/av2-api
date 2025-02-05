@@ -3,7 +3,7 @@
 """Kernels for fast drawing operations."""
 
 from math import exp
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import numba as nb
 import numpy as np

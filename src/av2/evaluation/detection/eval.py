@@ -55,7 +55,7 @@ Results:
 import logging
 import multiprocessing as mp
 import warnings
-from typing import Any, Dict, Final, List, Optional, Tuple, cast
+from typing_extensions import Any, Dict, Final, List, Optional, Tuple, cast
 
 import numpy as np
 import pandas as pd

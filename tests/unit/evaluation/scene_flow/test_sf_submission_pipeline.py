@@ -2,7 +2,7 @@
 
 import tempfile
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 from zipfile import ZipFile
 
 import numpy as np

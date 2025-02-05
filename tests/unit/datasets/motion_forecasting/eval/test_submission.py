@@ -5,7 +5,7 @@
 from contextlib import AbstractContextManager
 from contextlib import nullcontext as does_not_raise
 from pathlib import Path
-from typing import Dict
+from typing_extensions import Dict
 
 import numpy as np
 import pytest

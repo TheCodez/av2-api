@@ -2,7 +2,7 @@
 
 """Utility for interpolating a dense 2d grid from sparse values."""
 
-from typing import Final, Union
+from typing_extensions import Final, Union
 
 import numpy as np
 import scipy.interpolate

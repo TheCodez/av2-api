@@ -4,7 +4,7 @@
 import io
 import math
 from pathlib import Path
-from typing import Final, List, Optional, Sequence, Set, Tuple
+from typing_extensions import Final, List, Optional, Sequence, Set, Tuple
 
 import cv2
 import matplotlib.pyplot as plt

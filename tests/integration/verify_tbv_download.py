@@ -5,7 +5,7 @@
 import logging
 import sys
 from pathlib import Path
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import click
 from rich.progress import track

@@ -8,7 +8,7 @@ import os
 import pickle
 from collections import defaultdict
 from itertools import chain
-from typing import Any, Dict, Iterable, List, Union, cast
+from typing_extensions import Any, Dict, Iterable, List, Union, cast
 
 import numpy as np
 

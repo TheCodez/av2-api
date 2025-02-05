@@ -3,7 +3,7 @@
 """Colormap related constants and functions."""
 
 from enum import Enum, unique
-from typing import Final, Sequence, Tuple
+from typing_extensions import Final, Sequence, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np

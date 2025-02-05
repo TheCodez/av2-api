@@ -2,7 +2,7 @@
 
 import logging
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 
 from kornia.geometry.linalg import transform_points
 from tqdm import tqdm

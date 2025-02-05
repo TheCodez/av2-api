@@ -6,7 +6,7 @@ import logging
 from dataclasses import dataclass, field
 from cached_property import cached_property
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing_extensions import List, Optional, Tuple
 
 import pandas as pd
 from kornia.geometry.liegroup import Se3

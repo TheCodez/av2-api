@@ -2,7 +2,7 @@
 
 """Unit tests on utilities that perform dense 2d grid interpolation from sparse values."""
 
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import numpy as np
 

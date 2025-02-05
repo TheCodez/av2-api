@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from cached_property import cached_property
-from typing import Tuple
+from typing_extensions import Tuple
 
 import numpy as np
 

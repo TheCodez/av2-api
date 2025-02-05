@@ -4,7 +4,7 @@
 
 import tempfile
 from pathlib import Path
-from typing import Dict, Final, List
+from typing_extensions import Dict, Final, List
 
 from av2.datasets.sensor.av2_sensor_dataloader import AV2SensorDataLoader
 from av2.datasets.sensor.constants import RingCameras

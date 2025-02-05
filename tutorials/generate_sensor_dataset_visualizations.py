@@ -3,7 +3,7 @@
 """Example script for loading data from the AV2 sensor dataset."""
 
 from pathlib import Path
-from typing import Final, List, Tuple, Union
+from typing_extensions import Final, List, Tuple, Union
 
 import click
 import numpy as np

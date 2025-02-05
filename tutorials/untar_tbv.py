@@ -4,7 +4,7 @@
 
 import subprocess
 from pathlib import Path
-from typing import Final, Optional, Tuple
+from typing_extensions import Final, Optional, Tuple
 
 import click
 from joblib import Parallel, delayed

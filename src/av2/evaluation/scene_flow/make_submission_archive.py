@@ -1,7 +1,7 @@
 """Validate and package a set of prediction files for submission to the leaderboard."""
 
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 from zipfile import ZipFile
 
 import click

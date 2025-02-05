@@ -14,7 +14,7 @@ import math
 import numbers
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Union
+from typing_extensions import Union
 
 import numpy as np
 from upath import UPath

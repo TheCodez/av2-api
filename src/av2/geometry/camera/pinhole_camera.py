@@ -7,7 +7,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from cached_property import cached_property
 from pathlib import Path
-from typing import Tuple, Union
+from typing_extensions import Tuple, Union
 
 import numpy as np
 

@@ -1,7 +1,7 @@
 """Unit tests for PyTorch Lidar sub-module."""
 
 from pathlib import Path
-from typing import Final
+from typing_extensions import Final
 
 import numpy as np
 import pandas as pd

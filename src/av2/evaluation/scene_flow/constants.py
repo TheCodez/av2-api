@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from enum import Enum, unique
-from typing import Final
+from typing_extensions import Final
 
 from av2.datasets.sensor.constants import AnnotationCategories
 

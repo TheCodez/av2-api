@@ -2,7 +2,7 @@
 
 """Unit tests for rasterization related utilities."""
 
-from typing import Any, Callable
+from typing_extensions import Any, Callable
 
 import cv2
 import numpy as np

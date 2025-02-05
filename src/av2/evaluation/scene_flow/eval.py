@@ -5,7 +5,7 @@ from __future__ import annotations
 import zipfile
 from collections import defaultdict
 from pathlib import Path
-from typing import (
+from typing_extensions import (
     Any,
     Callable,
     DefaultDict,

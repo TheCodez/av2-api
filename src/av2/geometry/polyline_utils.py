@@ -4,7 +4,7 @@
 
 import datetime
 import math
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np

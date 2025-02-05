@@ -5,7 +5,7 @@
 import logging
 import sys
 from pathlib import Path
-from typing import Final, List
+from typing_extensions import Final, List
 
 import click
 import numpy as np

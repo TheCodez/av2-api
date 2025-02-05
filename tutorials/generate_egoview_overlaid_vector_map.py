@@ -10,7 +10,7 @@ import os
 import sys
 import time
 from pathlib import Path
-from typing import Final, List, Tuple
+from typing_extensions import Final, List, Tuple
 
 import click
 import numpy as np

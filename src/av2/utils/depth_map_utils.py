@@ -2,7 +2,7 @@
 
 """Provides utilities for working with and visualizing ego-view depth maps."""
 
-from typing import Final
+from typing_extensions import Final
 
 import cv2
 import matplotlib.pyplot as plt

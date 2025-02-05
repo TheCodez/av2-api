@@ -3,7 +3,7 @@
 """3D object detection evaluation constants."""
 
 from enum import Enum, unique
-from typing import Dict, Final, Tuple
+from typing_extensions import Dict, Final, Tuple
 
 from av2.utils.constants import PI
 

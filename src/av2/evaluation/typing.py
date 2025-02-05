@@ -1,6 +1,6 @@
 """Types for evaluation."""
 
-from typing import Any, Dict, List
+from typing_extensions import Any, Dict, List
 
 Frame = Dict[str, Any]
 Frames = List[Frame]

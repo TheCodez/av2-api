@@ -18,7 +18,7 @@ import math
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Dict, Final, List, Optional, Tuple, Union
+from typing_extensions import Dict, Final, List, Optional, Tuple, Union
 
 import numpy as np
 from upath import UPath

@@ -13,7 +13,7 @@ increased interpretability of the error modes in a set of detections.
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set, Tuple, Union
+from typing_extensions import Any, Dict, List, Optional, Set, Tuple, Union
 
 import numpy as np
 from joblib import Parallel, delayed

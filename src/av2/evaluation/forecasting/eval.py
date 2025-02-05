@@ -10,7 +10,7 @@ import pickle
 from collections import defaultdict
 from pathlib import Path
 from pprint import pprint
-from typing import Any, Dict, List, Optional, Tuple, cast
+from typing_extensions import Any, Dict, List, Optional, Tuple, cast
 
 import click
 import numpy as np

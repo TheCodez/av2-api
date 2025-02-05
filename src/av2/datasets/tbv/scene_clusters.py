@@ -9,7 +9,7 @@ Note:
    - Logs within each cluster are provided in chronological order.
 """
 
-from typing import Dict, Final, Tuple
+from typing_extensions import Dict, Final, Tuple
 
 ATX_CLUSTERS: Final[Dict[int, Tuple[str, ...]]] = {
     1: (

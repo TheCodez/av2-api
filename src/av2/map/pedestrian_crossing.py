@@ -5,7 +5,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict, Tuple
+from typing_extensions import Any, Dict, Tuple
 
 import numpy as np
 

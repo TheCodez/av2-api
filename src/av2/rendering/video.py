@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from enum import Enum, unique
 from pathlib import Path
-from typing import Dict, Final, Mapping, Optional, Set, Union, cast
+from typing_extensions import Dict, Final, Mapping, Optional, Set, Union, cast
 
 import av
 import numpy as np

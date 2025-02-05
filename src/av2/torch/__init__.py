@@ -1,6 +1,6 @@
 """Argoverse 2 PyTorch API."""
 
-from typing import Final
+from typing_extensions import Final
 
 LIDAR_COLUMNS: Final = ("x", "y", "z", "intensity")
 QWXYZ_COLUMNS: Final = ("qw", "qx", "qy", "qz")

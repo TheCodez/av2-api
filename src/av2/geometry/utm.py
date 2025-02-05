@@ -8,7 +8,7 @@ WGS84: https://en.wikipedia.org/wiki/World_Geodetic_System
 """
 
 from enum import Enum, unique
-from typing import Dict, Final, Tuple, Union
+from typing_extensions import Dict, Final, Tuple, Union
 
 import numpy as np
 from pyproj import Proj

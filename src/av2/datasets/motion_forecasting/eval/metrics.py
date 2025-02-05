@@ -1,7 +1,7 @@
 # <Copyright 2022, Argo AI, LLC. Released under the MIT license.>
 """Utilities to evaluate motion forecasting predictions and compute metrics."""
 
-from typing import List
+from typing_extensions import List
 
 import numpy as np
 

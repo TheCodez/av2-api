@@ -3,7 +3,7 @@
 """Unit tests for geometry utilities."""
 
 from pathlib import Path
-from typing import Any, Callable, Tuple
+from typing_extensions import Any, Callable, Tuple
 
 import numpy as np
 import pytest

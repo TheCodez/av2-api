@@ -1,7 +1,7 @@
 """Utility program for producing minimnal annotation files used for evaluation on the val and test splits."""
 
 from pathlib import Path
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import click
 import numpy as np

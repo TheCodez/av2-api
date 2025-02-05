@@ -3,7 +3,7 @@
 """Time units utilities."""
 
 from enum import Enum
-from typing import Union
+from typing_extensions import Union
 
 
 class TimeUnit(str, Enum):

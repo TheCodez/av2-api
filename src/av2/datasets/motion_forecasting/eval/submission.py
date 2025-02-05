@@ -5,7 +5,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Final, List, Tuple
+from typing_extensions import Dict, Final, List, Tuple
 
 import numpy as np
 import pandas as pd

@@ -5,7 +5,7 @@
 import glob
 import logging
 from pathlib import Path
-from typing import Dict, Final, Iterable, Optional, Tuple, cast
+from typing_extensions import Dict, Final, Iterable, Optional, Tuple, cast
 
 import numpy as np
 

@@ -1,6 +1,6 @@
 """Forecasting evaluation utilities."""
 
-from typing import Any, Dict, Iterable, List, Union, cast
+from typing_extensions import Any, Dict, Iterable, List, Union, cast
 
 import numpy as np
 

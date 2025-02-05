@@ -3,7 +3,7 @@
 """Unit tests for Argoverse scenario serialization."""
 
 from pathlib import Path
-from typing import List
+from typing_extensions import List
 
 import numpy as np
 

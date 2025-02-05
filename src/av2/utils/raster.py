@@ -2,7 +2,7 @@
 
 """Rasterization related utilities."""
 
-from typing import List
+from typing_extensions import List
 
 import cv2
 import numpy as np

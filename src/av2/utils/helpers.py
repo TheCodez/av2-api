@@ -2,7 +2,7 @@
 
 """Assortment of helper methods."""
 
-from typing import Optional, Sequence, Union
+from typing_extensions import Optional, Sequence, Union
 
 from av2.utils.typing import NDArrayBool, NDArrayByte, NDArrayFloat, NDArrayInt
 

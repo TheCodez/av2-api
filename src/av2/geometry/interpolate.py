@@ -2,7 +2,7 @@
 
 """Utilities for interpolating polylines or poses."""
 
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 import numpy as np
 from scipy.spatial.transform import Rotation, Slerp

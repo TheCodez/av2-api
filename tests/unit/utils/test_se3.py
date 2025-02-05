@@ -2,7 +2,7 @@
 
 """SE(3) Lie group unit tests."""
 
-from typing import Any, Callable, Union
+from typing_extensions import Any, Callable, Union
 
 import numpy as np
 

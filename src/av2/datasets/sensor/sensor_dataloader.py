@@ -8,7 +8,7 @@ import logging
 from dataclasses import dataclass, field
 from cached_property import cached_property
 from pathlib import Path
-from typing import Dict, Final, List, Optional, Tuple, Union
+from typing_extensions import Dict, Final, List, Optional, Tuple, Union
 
 import numpy as np
 import pandas as pd

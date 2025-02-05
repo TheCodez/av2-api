@@ -2,7 +2,7 @@
 
 """Raster visualization tools."""
 
-from typing import Dict, Final, Tuple
+from typing_extensions import Dict, Final, Tuple
 
 import numpy as np
 

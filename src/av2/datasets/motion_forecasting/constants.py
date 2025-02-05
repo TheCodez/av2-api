@@ -2,7 +2,7 @@
 
 """Constants used throughout the AV2 motion forecasting API."""
 
-from typing import Final
+from typing_extensions import Final
 
 AV2_SCENARIO_STEP_HZ: Final[int] = 10
 AV2_SCENARIO_OBS_TIMESTEPS: Final[int] = 50

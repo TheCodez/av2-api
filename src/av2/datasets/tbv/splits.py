@@ -2,7 +2,7 @@
 
 """Splits for the Trust, but Verify (Argoverse 2 Map Change) dataset."""
 
-from typing import Final, Tuple
+from typing_extensions import Final, Tuple
 
 TRAIN: Final[Tuple[str, ...]] = (
     "wwZ8efHWR8Rk5bgf78abyVPsE5KWJxYj__Autumn_2020",

@@ -1,7 +1,7 @@
 """Rust backend typing stubs."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional, Tuple
+from typing_extensions import List, Optional, Tuple
 
 import polars as pl
 import torch
