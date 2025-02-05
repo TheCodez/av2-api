@@ -9,7 +9,6 @@ from typing_extensions import Any, Dict, List, Optional, Tuple, Union
 import cv2
 import numpy as np
 import pandas as pd
-from cv2.typing import MatLike
 from pyarrow import feather
 from upath import UPath
 
@@ -175,7 +174,7 @@ def read_city_SE3_ego(log_dir: Union[Path, UPath]) -> TimestampedCitySE3EgoPoses
     return timestamp_city_SE3_ego_dict
 
 
-def read_img(img_path: Path, channel_order: str = "RGB") -> MatLike:
+def read_img(img_path: Path, channel_order: str = "RGB") -> Any:
     """Return a RGB or BGR image array, given an image file path.
 
     Args:
@@ -199,7 +198,7 @@ def read_img(img_path: Path, channel_order: str = "RGB") -> MatLike:
     return img_rgb
 
 
-def write_img(img_path: Path, img: MatLike, channel_order: str = "RGB") -> None:
+def write_img(img_path: Path, img: Any, channel_order: str = "RGB") -> None:
     """Save image to disk.
 
     Args:
