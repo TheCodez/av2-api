@@ -8,7 +8,6 @@ from pathlib import Path
 from typing_extensions import Any, Union  # noqa
 
 import numpy as np
-import numpy.typing as npt
 from upath import UPath
 
 NDArrayNumber = np.ndarray
