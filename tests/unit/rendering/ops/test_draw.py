@@ -6,7 +6,7 @@ from typing_extensions import Any, Callable
 
 import cv2
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 
 from av2.rendering.ops.draw import (
     alpha_blend_kernel,
@@ -17,12 +17,12 @@ from av2.utils.typing import NDArrayByte, NDArrayInt
 
 
 def _draw_points_cv2(
-    img: MatLike,
+    img: Any,
     points_xy: NDArrayInt,
     colors: NDArrayByte,
     radius: int,
     with_anti_alias: bool = True,
-) -> MatLike:
+) -> Any:
     """Draw points in an image using OpenCV functionality.
 
     Args:
