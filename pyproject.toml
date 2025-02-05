@@ -7,7 +7,7 @@ name = "av2"
 description = "Argoverse 2: Next generation datasets for self-driving perception and forecasting."
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 
 keywords = [
     "argoverse",
