@@ -5,7 +5,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from functools import cached_property
+from cached_property import cached_property
 from typing import Tuple
 
 import numpy as np

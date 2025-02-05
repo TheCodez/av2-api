@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from enum import Enum
-from functools import cached_property
+from cached_property import cached_property
 from typing import List
 
 import pandas as pd

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass, field
-from functools import cached_property
+from cached_property import cached_property
 from pathlib import Path
 from typing import List, Optional, Tuple
 
