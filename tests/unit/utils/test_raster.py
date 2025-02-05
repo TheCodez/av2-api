@@ -6,7 +6,7 @@ from typing_extensions import Any, Callable
 
 import cv2
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 
 import av2.utils.raster as raster_utils
 from av2.utils.typing import NDArrayByte, NDArrayFloat
@@ -131,7 +131,7 @@ def test_benchmark_blend_images_cv2(benchmark: Callable[..., Any]) -> None:
 
     def blend_images(
         img0: NDArrayByte, img1: NDArrayByte, alpha: float = 0.7
-    ) -> MatLike:
+    ) -> Any:
         """Alpha-blend two images together using OpenCV `addWeighted`.
 
         Args:

@@ -4,12 +4,12 @@
 
 import cv2
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 
 from av2.utils.typing import NDArrayByte
 
 
-def dilate_by_l2(img: NDArrayByte, dilation_thresh: float = 5.0) -> MatLike:
+def dilate_by_l2(img: NDArrayByte, dilation_thresh: float = 5.0) -> Any:
     """Dilate a mask using the L2 distance from a zero pixel.
 
     OpenCV's distance transform calculates the DISTANCE TO THE CLOSEST ZERO PIXEL for each

@@ -6,7 +6,7 @@ from typing_extensions import List
 
 import cv2
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 from PIL import Image, ImageDraw
 
 from av2.utils.typing import NDArrayByte, NDArrayFloat, NDArrayNumber

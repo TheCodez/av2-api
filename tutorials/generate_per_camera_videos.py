@@ -9,7 +9,7 @@ from typing_extensions import Final, List
 
 import click
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 from joblib import Parallel, delayed
 
 import av2.rendering.video as video_utils
@@ -74,7 +74,7 @@ def render_log_ring_camera_videos(
         cam_im_fpaths = loader.get_ordered_log_cam_fpaths(log_id, camera_name)
         num_cam_imgs = len(cam_im_fpaths)
 
-        video_list: List[MatLike] = []
+        video_list: List[Any] = []
         for i, im_fpath in enumerate(cam_im_fpaths):
             if i % PRINT_EVERY == 0:
                 logger.info(

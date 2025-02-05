@@ -8,7 +8,7 @@ from typing_extensions import Optional, Tuple, Union
 import cv2
 import matplotlib.patches as mpatches
 import numpy as np
-from cv2.typing import MatLike
+from typing_extensions import Any
 from matplotlib.axes import Axes
 from matplotlib.path import Path as MPath
 
@@ -73,13 +73,13 @@ def plot_polygon_patch_mpl(
 
 
 def draw_line_in_img(
-    img: MatLike,
+    img: Any,
     p1: Tuple[int, int],
     p2: Tuple[int, int],
     color: Tuple[int, int, int] = BLUE_BGR,
     thickness: int = 3,
     line_type: int = cv2.LINE_AA,
-) -> MatLike:
+) -> Any:
     """Draw a line on an image.
 
     Args:
@@ -105,14 +105,14 @@ def draw_line_in_img(
 
 
 def draw_line_frustum(
-    img: MatLike,
+    img: Any,
     p1: Tuple[int, int],
     p2: Tuple[int, int],
     cam_model: PinholeCamera,
     color: Tuple[int, int, int],
     thickness: int = 3,
     line_type: int = cv2.LINE_AA,
-) -> MatLike:
+) -> Any:
     """Draw a line inside of the camera frustum.
 
     Args:
