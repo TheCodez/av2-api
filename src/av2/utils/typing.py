@@ -11,12 +11,13 @@ import numpy as np
 import numpy.typing as npt
 from upath import UPath
 
-NDArrayNumber = np.ndarray[Any, np.dtype[Union[np.integer[Any], np.floating[Any]]]]
-NDArrayBool = npt.NDArray[np.bool_]
-NDArrayFloat = npt.NDArray[np.float64]
-NDArrayFloat32 = npt.NDArray[np.float32]
-NDArrayByte = npt.NDArray[np.uint8]
-NDArrayInt = npt.NDArray[np.int64]
-NDArrayObject = npt.NDArray[np.object_]
+NDArrayNumber = np.ndarray
+NDArrayBool = np.ndarray
+NDArrayFloat = np.ndarray
+NDArrayFloat32 = np.ndarray
+NDArrayByte = np.ndarray
+NDArrayInt = np.ndarray
+NDArrayObject = np.ndarray
+
 
 PathType = Union[Path, UPath]
